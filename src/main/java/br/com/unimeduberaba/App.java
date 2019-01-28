@@ -144,7 +144,7 @@ public class App {
 		System.out.println(link);
 		link = link.replaceAll("git@", "https://");
 		System.out.println(link);
-		link = link.replaceAll(".git", "/commit/" + obj.getCodigocommitgit());
+		link = link.replaceAll("\\.git", "/commit/" + obj.getCodigocommitgit());
 		System.out.println(link);
 
 		Anexo anexo = new Anexo();
